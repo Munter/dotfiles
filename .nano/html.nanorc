@@ -1,0 +1,11 @@
+## Here is a short example for HTML.
+##
+syntax "html" "\.html(\.template)?$"
+
+## Default color
+color white "^.+$"
+
+## HTML Tags
+color yellow start="<" end=">"
+
+color red "&[^;[[:space:]]]*;"
