@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"Color Highlighter",
+		"ColorPicker",
 		"Package Control",
 		"SublimeLinter"
 	]
