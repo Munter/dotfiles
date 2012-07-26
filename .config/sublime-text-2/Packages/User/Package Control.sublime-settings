@@ -1,7 +1,9 @@
 {
-	"auto_upgrade_last_run": 1343305157,
+	"auto_upgrade_last_run": 1343311411,
 	"installed_packages":
 	[
+		"Color Highlighter",
+		"Package Control",
 		"SublimeLinter"
 	]
 }
