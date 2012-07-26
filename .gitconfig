@@ -14,13 +14,18 @@
     whitespace = warn
 [branch]
 	autosetupmerge =  true
+	autosetuprebase = always
 [alias]
-	cdiff = diff --cached
+	dc = diff --cached
+	df = diff --word-diff
 	co = checkout
 	cp = cherry-pick
 	st = status
 	br = branch -a
 	lg = log --graph --decorate=short --pretty=medium --abbrev-commit --date=local
 	lgb = log --graph --decorate=short --pretty=medium --abbrev-commit --date=local --branches --all
-	lol = log --graph --decorate --pretty=oneline --abbrev-commit
-	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	lol = log --graph --decorate --oneline
+	lola = log --graph --decorate --oneline --all
+
+	# Show files ignored by git:
+	ign = ls-files -o -i --exclude-standard
