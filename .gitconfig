@@ -15,6 +15,12 @@
 [branch]
 	autosetupmerge =  true
 	autosetuprebase = always
+[push]
+	default = tracking
+[fetch]
+	recurseSubmodules = true
+[log]
+	decorate = short
 [alias]
 	dc = diff --cached
 	df = diff --word-diff
@@ -22,10 +28,10 @@
 	cp = cherry-pick
 	st = status
 	br = branch -a
-	lg = log --graph --decorate=short --pretty=medium --abbrev-commit --date=local
-	lgb = log --graph --decorate=short --pretty=medium --abbrev-commit --date=local --branches --all
-	lol = log --graph --decorate --oneline
-	lola = log --graph --decorate --oneline --all
+	lg = log --graph --pretty=medium --abbrev-commit --date=local
+	lgb = log --graph --pretty=medium --abbrev-commit --date=local --branches --all
+	lol = log --graph --oneline
+	lola = log --graph --oneline --all
 
 	# Show files ignored by git:
 	ign = ls-files -o -i --exclude-standard
