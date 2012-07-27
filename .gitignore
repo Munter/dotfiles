@@ -1,2 +1,7 @@
 .config/sublime-text-2/Settings
 .config/sublime-text-2/Packages/Default/Startup.cache
+
+.config/sublime-text-2/Packages/SublimeTODO/todo_results.hidden-tmLanguage.cache
+
+*.pyc
+*.chback
