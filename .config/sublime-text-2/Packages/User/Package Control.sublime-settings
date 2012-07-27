@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"Can I Use",
+		"cdnjs",
 		"Color Highlighter",
 		"ColorPicker",
 		"Package Control",
