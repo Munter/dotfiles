@@ -1,6 +1,7 @@
 [user]
 	name = Peter Müller
 	email = munter@fumle.dk
+
 [color]
 	branch = always
 	diff = always
@@ -10,17 +11,32 @@
 	showbranch = always
 	status = always
 	ui = always
+
 [apply]
-    whitespace = warn
+    whitespace = fix
+
 [branch]
 	autosetupmerge =  true
-	autosetuprebase = always
+	#autosetuprebase = always
+
+[merge]
+    # Include summaries of merged commits in newly created merge commit messages
+    log = true
+
+# Use `origin` as the default remote on the `master` branch in all cases
+[branch "master"]
+    remote = origin
+    merge = refs/heads/master
+
 [push]
 	default = tracking
+
 [fetch]
 	recurseSubmodules = true
+
 [log]
 	decorate = short
+
 [alias]
 	dc = diff --cached
 	df = diff --word-diff
@@ -35,3 +51,23 @@
 
 	# Show files ignored by git:
 	ign = ls-files -o -i --exclude-standard
+
+    # Show verbose output about tags, branches or remotes
+    tags = tag -l
+    branches = branch -a
+    remotes = remote -v
+
+
+# URL shorthands
+[url "git@github.com:"]
+    insteadOf = "gh:"
+    pushInsteadOf = "github:"
+    pushInsteadOf = "git://github.com/"
+[url "git://github.com/"]
+    insteadOf = "github:"
+[url "git@gist.github.com:"]
+    insteadOf = "gst:"
+    pushInsteadOf = "gist:"
+    pushInsteadOf = "git://gist.github.com/"
+[url "git://gist.github.com/"]
+    insteadOf = "gist:"
