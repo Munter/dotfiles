@@ -1,23 +1,23 @@
 [user]
-	name = Peter Müller
-	email = munter@fumle.dk
+    name = Peter Müller
+    email = munter@fumle.dk
 
 [color]
-	branch = always
-	diff = always
-	grep = always
-	interactive = always
-	pager = true
-	showbranch = always
-	status = always
-	ui = always
+    branch = always
+    diff = always
+    grep = always
+    interactive = always
+    pager = true
+    showbranch = always
+    status = always
+    ui = always
 
 [apply]
     whitespace = fix
 
 [branch]
-	autosetupmerge =  true
-	#autosetuprebase = always
+    autosetupmerge =  true
+    #autosetuprebase = always
 
 [merge]
     # Include summaries of merged commits in newly created merge commit messages
@@ -29,28 +29,28 @@
     merge = refs/heads/master
 
 [push]
-	default = tracking
+    default = tracking
 
 [fetch]
-	recurseSubmodules = true
+    recurseSubmodules = true
 
 [log]
-	decorate = short
+    decorate = short
 
 [alias]
-	dc = diff --cached
-	df = diff --word-diff
-	co = checkout
-	cp = cherry-pick
-	st = status
-	br = branch -a
-	lg = log --graph --pretty=medium --abbrev-commit --date=local
-	lgb = log --graph --pretty=medium --abbrev-commit --date=local --branches --all
-	lol = log --graph --oneline
-	lola = log --graph --oneline --all
+    dc = diff --cached
+    df = diff --word-diff
+    co = checkout
+    cp = cherry-pick
+    st = status
+    br = branch -a
+    lg = log --graph --pretty=medium --abbrev-commit --date=local
+    lgb = log --graph --pretty=medium --abbrev-commit --date=local --branches --all
+    lol = log --graph --oneline
+    lola = log --graph --oneline --all
 
-	# Show files ignored by git:
-	ign = ls-files -o -i --exclude-standard
+    # Show files ignored by git:
+    ign = ls-files -o -i --exclude-standard
 
     # Show verbose output about tags, branches or remotes
     tags = tag -l
