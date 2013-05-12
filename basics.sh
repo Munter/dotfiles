@@ -1,4 +1,4 @@
-sudo apt-get install git chromium-browser pngquant optipng pngcrush libssl-dev libcairo-dev ligjpeg-dev libgif-dev build-essential tree htop subversion unsettings
+sudo apt-get install git chromium-browser pngquant optipng pngcrush libssl-dev libcairo-dev libjpeg-dev libgif-dev build-essential tree htop
 
 git clone https://github.com/joyent/node.git
 cd node
