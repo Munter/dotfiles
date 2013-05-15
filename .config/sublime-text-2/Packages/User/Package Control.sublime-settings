@@ -2,14 +2,10 @@
 	"auto_upgrade_last_run": 1343375531,
 	"installed_packages":
 	[
-		"Can I Use",
-		"cdnjs",
-		"Color Highlighter",
-		"ColorPicker",
 		"Package Control",
-		"Prefixr",
+		"EditorConfig",
+		"GitGutter",
 		"StringEncode",
-		"SublimeLinter",
-		"SublimeTODO"
+		"SublimeLinter"
 	]
 }
