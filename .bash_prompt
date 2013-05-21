@@ -1,14 +1,14 @@
-export RESET="\033[m"
+export RESET="\[\e[m\]"
 
-export USER="\e[1;32m"
-export AT="\e[32m"
-export HOST="\e[36m"
-export DIR="\e[1;34m"
-export BRANCH="\e[1;35m"
-export ERROR="\e[01;31m"
+export USER="\[\e[1;32m\]"
+export AT="\[\e[32m\]"
+export HOST="\[\e[36m\]"
+export DIR="\[\e[1;34m\]"
+export BRANCH="\[\e[1;35m\]"
+export ERROR="\[\e[01;31m\]"
 
 # Root should have a warning color
-[ $UID == "0" ] && USER="\e[1;31m"
+[ $UID == "0" ] && USER="\[\e[1;31m\]"
 
 function parse_git_dirty() {
     [[ $(git status 2> /dev/null | tail -n1) != *"working directory clean"* ]] && echo "*"
