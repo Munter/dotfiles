@@ -22,6 +22,11 @@
 [merge]
     # Include summaries of merged commits in newly created merge commit messages
     log = true
+    tool = sublime
+
+[mergetool "sublime"]
+    cmd = subl -w $MERGED
+    trustExitCode = false
 
 # Use `origin` as the default remote on the `master` branch in all cases
 [branch "master"]
