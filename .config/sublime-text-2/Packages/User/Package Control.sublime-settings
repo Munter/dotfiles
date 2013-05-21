@@ -2,9 +2,14 @@
 	"auto_upgrade_last_run": 1343375531,
 	"installed_packages":
 	[
-		"Package Control",
 		"EditorConfig",
+		"Emmet",
+		"Emmet Css Snippets",
 		"GitGutter",
+		"JsFormat",
+		"LESS",
+		"Levels",
+		"Package Control",
 		"StringEncode",
 		"SublimeLinter"
 	]
