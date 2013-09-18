@@ -1,4 +1,4 @@
-sudo apt-get install git screen chromium-browser pngquant optipng pngcrush libssl-dev libcairo-dev libjpeg-dev libgif-dev build-essential tree htop
+sudo apt-get install git screen chromium-browser pngquant optipng pngcrush libssl-dev libcairo-dev libjpeg-dev libgif-dev build-essential tree htop curl
 
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 ~/.nvm/nvm.sh
