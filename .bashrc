@@ -41,6 +41,12 @@ fi
 
 export PATH=$PATH:~/.local/bin
 
-# This loads NVM
-[[ -s ~/.nvm/nvm.sh ]] && . ~/.nvm/nvm.sh
+# Load nvm
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
 
+# nvm bash completion
+[[ -f ~/.nvm/bash_completion ]] && source ~/.nvm/bash_completion
+
+
+# git bash completion
+[[ -f ~/.git-completion.bash ]] && source ~/.git-completion.bash
