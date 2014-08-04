@@ -42,8 +42,10 @@
 [log]
     decorate = short
 
+
 [pretty]
-    custom = %C(yellow)%h%Creset -%C(green)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
+    default = %C(yellow)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
+    parents = %C(yellow)%h%Creset - %C(red)%p%C(reset) -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
 
 [alias]
     dc = diff --cached
@@ -54,10 +56,9 @@
     br = branch -a
     lg = log --graph --pretty=medium --abbrev-commit --date=local
     lgb = log --graph --pretty=medium --abbrev-commit --date=local --branches --all
-    lol = log --graph --oneline
-    lola = log --graph --oneline --all
-    l = log --graph --pretty=custom
-    la = log --graph --pretty=custom --all
+    l = log --graph --pretty=default
+    lp = log --graph --pretty=parents
+    la = log --graph --pretty=default --all
 
     # Show files ignored by git:
     ign = ls-files -o -i --exclude-standard
