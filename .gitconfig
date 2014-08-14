@@ -1,6 +1,9 @@
 [user]
     name = Peter Müller
     email = munter@fumle.dk
+    
+[core]
+    precomposeunicode = true
 
 [color]
     branch = always
