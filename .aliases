@@ -51,3 +51,5 @@ alias map="xargs -n1"
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
     alias "$method"="lwp-request -m '$method'"
 done
+
+alias static="livestyle --dead -p 4000 --processimages"
