@@ -1,6 +1,12 @@
 .config/sublime-text-2/*
 !.config/sublime-text-2/Packages/User/*
 
+.config/sublime-test-3/*
+!.config/sublime-text-3/Packages/User/*
+.config/sublime-text-3/Packages/User/Package Control.*
+!.config/sublime-text-3/Packages/User/Package Control.sublime-settings
+
+
 *.pyc
 *.chback
 *.cache

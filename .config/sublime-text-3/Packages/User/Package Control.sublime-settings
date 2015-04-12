@@ -1,0 +1,29 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"Emmet Css Snippets",
+		"Gist",
+		"GitGutter",
+		"Google Spell Check",
+		"HTML5",
+		"JSONLint",
+		"LESS",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Monokai Extended",
+		"Package Control",
+		"ReactJS",
+		"ReactJS Snippets",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-jsxhint"
+	]
+}
