@@ -1,7 +1,7 @@
 [user]
     name = Peter Müller
     email = munter@fumle.dk
-    
+
 [core]
     precomposeunicode = true
 
@@ -28,7 +28,7 @@
     tool = sublime
 
 [mergetool "sublime"]
-    cmd = subl -w $MERGED
+    cmd = sub -w $MERGED
     trustExitCode = false
 
 # Use `origin` as the default remote on the `master` branch in all cases
