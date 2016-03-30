@@ -75,6 +75,9 @@
     revert-merge = "!revert_merge() { [ $# -ne 2 ] && echo 'error: revert-merge needs exactly two arguments, the <commit>-ish to revert and the <commit>-ish of the mainline parent' >&2 && exit 1; git rev-parse \"$2\" >/dev/null && git revert \"$1\" -m \"$(echo -n \"$(git rev-list --parents -n 1 \"$1\" | sed -e \"s/ $(git rev-parse \"$2\").*//\" -e 's/[^ ]\\+ \\?/X/g')\" | wc -c)\";\n\n\n}; revert_merge"
 
 
+	  greenkept = !git branch -r --no-color | grep greenkeeper | sed \"s/origin\\//:/\" | xargs echo | xargs git push origin
+
+
 # URL shorthands
 [url "git@github.com:"]
     insteadOf = "gh:"
