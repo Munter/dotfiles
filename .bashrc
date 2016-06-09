@@ -50,3 +50,8 @@ export PATH=$PATH:~/.local/bin
 
 # git bash completion
 [[ -f ~/.git-completion.bash ]] && source ~/.git-completion.bash
+
+# npm bash completion
+[[ -f ~/.npm-completion.bash ]] && source ~/.npm-completion.bash
+
+#source /opt/boxen/env.sh
