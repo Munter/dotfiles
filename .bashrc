@@ -41,6 +41,8 @@ fi
 
 export PATH=$PATH:~/.local/bin
 
+export PATH=$PATH:./node_modules/.bin
+
 # Load nvm
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
 
@@ -53,5 +55,3 @@ export PATH=$PATH:~/.local/bin
 
 # npm bash completion
 [[ -f ~/.npm-completion.bash ]] && source ~/.npm-completion.bash
-
-#source /opt/boxen/env.sh
