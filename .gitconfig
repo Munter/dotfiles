@@ -4,6 +4,10 @@
 
 [core]
     precomposeunicode = true
+    editor = nano
+
+[hub]
+    protocol = https
 
 [color]
     branch = always
