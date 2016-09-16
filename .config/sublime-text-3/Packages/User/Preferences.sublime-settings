@@ -93,16 +93,20 @@
 		".hg",
 		"CVS",
 		".sass-cache",
+		"tmp/sass-cache",
 		"node_modules",
 		"bower_components",
 		"jspm_packages",
 		"public/assets",
-		"public/rjs_assets"
+		"public/rjs_assets",
+		"public/systemjs",
+		"vendor/bundle",
+		"coverage"
 	],
 	"font_options":
 	[
 	],
-	"font_size": 8,
+	"font_size": 12,
 	"gpu_window_buffer": "auto",
 	"gutter": true,
 	"highlight_line": true,

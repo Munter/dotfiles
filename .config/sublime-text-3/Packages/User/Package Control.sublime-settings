@@ -1,10 +1,12 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
 		"Babel",
+		"Better CoffeeScript",
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
@@ -12,6 +14,7 @@
 		"Gist",
 		"GitGutter",
 		"Google Spell Check",
+		"HexViewer",
 		"HTML5",
 		"JSONLint",
 		"LESS",
@@ -19,11 +22,14 @@
 		"Markdown Preview",
 		"Monokai Extended",
 		"Package Control",
+		"Pretty JSON",
 		"ReactJS",
 		"ReactJS Snippets",
 		"Sass",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-jshint",
+		"SublimeLinter-json",
 		"SublimeLinter-jsxhint"
 	]
 }
