@@ -72,6 +72,5 @@ for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
 done
 
 alias static="livestyle --dead -p 4000 --processimages"
-alias sub="subl"
 
 alias dry="npm pack && tar -tf *-*.tgz && rm *-*.tgz"
